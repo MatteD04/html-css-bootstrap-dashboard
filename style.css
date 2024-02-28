@@ -8,7 +8,7 @@ header{
 .ms-aside{
     width: 100px;
     height: calc(100vh - 60px);
-    background-color: rgb(7, 15, 40);
+    background-color: #051e34;
     background-image: url("./img/sidebar-bg.png");
 }
 .ms-main{
@@ -53,10 +53,33 @@ header{
 }
 
 /*MAIN*/
-.row{
-    background-color: blue;
+.section{
+    width: 100%;
+    background-color: #1b72e8;
 }
-
+.ms-btn-plus{
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 12px 5px 12px;
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.ms-student{
+    padding-top: 6px;
+}
+.ms-btn-plane{
+    color: white;
+    border: none;
+    background-color: #165bba;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 0 8px;
+}
+.ms-btn-other{
+    padding-bottom: 3px;
+}
 /*MEDIA QUERY*/
 @media screen and (min-width:992px){
     .ms-aside{
