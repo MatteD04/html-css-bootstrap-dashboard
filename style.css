@@ -6,9 +6,10 @@ header{
     height: 60px;
 }
 .ms-aside{
-    width: 80px;
+    width: 100px;
     height: calc(100vh - 60px);
-    background-color: aqua;
+    background-color: rgb(7, 15, 40);
+    background-image: url("./img/sidebar-bg.png");
 }
 .ms-main{
     height: calc(100vh - 60px);
@@ -41,4 +42,19 @@ header{
 .ms-bell:hover{
     background-color: transparent;
     color: rgb(247, 160, 0);
+}
+
+/*ASIDE*/
+.ms-aside ul{
+    list-style: none;
+}
+.ms-aside ul {
+    font-size: 20px;
+}
+
+/*MEDIA QUERY*/
+@media screen and (min-width:992px){
+    .ms-aside{
+        width: 150px;
+    }
 }
