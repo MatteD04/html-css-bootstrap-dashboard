@@ -52,9 +52,17 @@ header{
     font-size: 20px;
 }
 
+/*MAIN*/
+.row{
+    background-color: blue;
+}
+
 /*MEDIA QUERY*/
 @media screen and (min-width:992px){
     .ms-aside{
-        width: 150px;
+        width: 180px;
+    }
+    .ms-order{
+        order: 1;
     }
 }
