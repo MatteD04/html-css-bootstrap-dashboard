@@ -91,6 +91,7 @@ header{
 }
 .ms-grid{
     border: 2px solid rgb(222, 222, 222);
+    border-radius: 8px;
 }
 .ms-row-grid{
     margin: 10px;
@@ -102,6 +103,20 @@ header{
 .ms-bottom-grid{
     border-bottom: 1px solid rgb(222, 222, 222);
 }
+.ms-avatar{
+    width: 25px;
+    margin-left: 0;
+}
+.ms-column{
+    width: 50%;
+}
+.ms-font{
+    border: 1px solid gray;
+    color: gray;
+    padding: 5px;
+    border-radius: 3px;
+}
+
 
 /*MEDIA QUERY*/
 @media screen and (min-width:992px){
