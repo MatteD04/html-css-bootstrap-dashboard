@@ -93,6 +93,9 @@ header{
     margin: 10px;
     border: 1px solid rgb(222, 222, 222);
 }
+.ms-grid-stats{
+    margin: 10px 0;
+}
 .ms-bottom-grid{
     border-bottom: 1px solid rgb(222, 222, 222);
 }
