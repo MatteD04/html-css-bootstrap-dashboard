@@ -81,6 +81,9 @@ header{
 .ms-btn-other{
     padding-bottom: 3px;
 }
+#offcanvasRight{
+    width: 100%;
+}
 /*section class*/
 .ms-card-title{
     background-color: #f7f7f7;
@@ -107,5 +110,8 @@ header{
     }
     .ms-order{
         order: 1;
+    }
+    #offcanvasRight{
+        width: 50%;
     }
 }
